@@ -4,9 +4,11 @@ Prototipo académico de la Ruta A. Trabaja con datos ficticios. La Coordinación
 
 ## Ejecución local
 
-Con `uv`, desde este directorio:
+Con `uv`, Node.js 22.12+ y npm, desde este directorio:
 
 ```sh
+npm --prefix frontend ci
+npm --prefix frontend run build
 uv sync --locked
 uv run --locked uvicorn app.main:app --port 8765
 ```
