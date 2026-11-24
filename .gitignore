@@ -9,3 +9,5 @@ venv/
 .vscode/
 .idea/
 ~$*.docx
+node_modules/
+recomendador-practicas/app/static/
